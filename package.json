@@ -34,7 +34,26 @@
       "App limits",
       "Downtime",
       "Content restrictions"
-    ]
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/screen-time"
+    },
+    "featured": false,
+    "tags": [
+      "system",
+      "utility",
+      "screen time"
+    ],
+    "releaseDate": "2024-12-28",
+    "support": "https://github.com/zos-apps/screen-time/issues",
+    "changelog": "https://github.com/zos-apps/screen-time/releases"
   },
   "scripts": {
     "build": "tsup",
