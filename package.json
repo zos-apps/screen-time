@@ -20,7 +20,21 @@
         "height": 500
       },
       "resizable": true
-    }
+    },
+    "about": "Monitor and manage your device usage and screen time.",
+    "help": [
+      "View daily usage",
+      "Set app limits",
+      "Schedule downtime"
+    ],
+    "docs": "https://zos-apps.github.io/screen-time",
+    "site": "https://github.com/zos-apps/screen-time",
+    "features": [
+      "Usage statistics",
+      "App limits",
+      "Downtime",
+      "Content restrictions"
+    ]
   },
   "scripts": {
     "build": "tsup",
@@ -53,5 +67,13 @@
     "screen-time",
     "macos",
     "desktop"
-  ]
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
