@@ -1,5 +1,5 @@
 {
-  "name": "@anthropic/screen-time",
+  "name": "@zos-apps/screen-time",
   "version": "1.0.0",
   "type": "module",
   "main": "./dist/index.js",
@@ -11,9 +11,14 @@
     "icon": "⏰",
     "category": "system",
     "description": "Monitor and manage screen usage",
-    "permissions": ["storage.local"],
+    "permissions": [
+      "storage.local"
+    ],
     "window": {
-      "defaultSize": { "width": 400, "height": 500 },
+      "defaultSize": {
+        "width": 400,
+        "height": 500
+      },
       "resizable": true
     }
   },
@@ -30,5 +35,23 @@
     "@types/react-dom": "^18.3.0",
     "tsup": "^8.3.5",
     "typescript": "^5.7.2"
-  }
+  },
+  "description": "Monitor and manage screen usage",
+  "homepage": "https://zos-apps.github.io/screen-time",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/screen-time.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zos-apps/screen-time/issues"
+  },
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "keywords": [
+    "zos",
+    "app",
+    "screen-time",
+    "macos",
+    "desktop"
+  ]
 }
