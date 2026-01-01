@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 interface ScreenTimeProps {
   onClose: () => void;
@@ -19,7 +19,7 @@ const mockUsage: AppUsage[] = [
   { name: 'Messages', icon: '💬', time: 30, category: 'Social' },
 ];
 
-const ScreenTime: React.FC<ScreenTimeProps> = ({ onClose }) => {
+const ScreenTime: React.FC<ScreenTimeProps> = ({ onClose: _onClose }) => {
   const [period, setPeriod] = useState<'today' | 'week'>('today');
   const [usage] = useState(mockUsage);
 
